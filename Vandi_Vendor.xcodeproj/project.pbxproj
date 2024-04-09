@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		844C1CF12BB5CF02004F4BCD /* Vandi_VendorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844C1CF02BB5CF02004F4BCD /* Vandi_VendorApp.swift */; };
+		844C1CF32BB5CF02004F4BCD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844C1CF22BB5CF02004F4BCD /* ContentView.swift */; };
+		844C1CF52BB5CF03004F4BCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 844C1CF42BB5CF03004F4BCD /* Assets.xcassets */; };
+		844C1CF92BB5CF03004F4BCD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 844C1CF82BB5CF03004F4BCD /* Preview Assets.xcassets */; };
+		844C1D032BB5CF03004F4BCD /* Vandi_VendorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844C1D022BB5CF03004F4BCD /* Vandi_VendorTests.swift */; };
+		844C1D0D2BB5CF03004F4BCD /* Vandi_VendorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844C1D0C2BB5CF03004F4BCD /* Vandi_VendorUITests.swift */; };
+		844C1D0F2BB5CF03004F4BCD /* Vandi_VendorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844C1D0E2BB5CF03004F4BCD /* Vandi_VendorUITestsLaunchTests.swift */; };
+		844C1D1C2BB5D9B6004F4BCD /* VehicleCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844C1D1B2BB5D9B6004F4BCD /* VehicleCar.swift */; };
+		844C1D1E2BB5DB1F004F4BCD /* AddVehicleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844C1D1D2BB5DB1F004F4BCD /* AddVehicleView.swift */; };
+		844C1D202BB6F7C7004F4BCD /* CarListCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844C1D1F2BB6F7C7004F4BCD /* CarListCard.swift */; };
+		844C1D222BB6F7F1004F4BCD /* ExploreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844C1D212BB6F7F1004F4BCD /* ExploreViewModel.swift */; };
+		844C1D242BB6F84A004F4BCD /* DetailCarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844C1D232BB6F84A004F4BCD /* DetailCarView.swift */; };
+		844C1D262BB7A77C004F4BCD /* VehicleCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844C1D252BB7A77C004F4BCD /* VehicleCardView.swift */; };
+		844C1D2A2BB7A836004F4BCD /* VehicleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844C1D292BB7A836004F4BCD /* VehicleListView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		844C1CFF2BB5CF03004F4BCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 844C1CE52BB5CF02004F4BCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 844C1CEC2BB5CF02004F4BCD;
+			remoteInfo = Vandi_Vendor;
+		};
+		844C1D092BB5CF03004F4BCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 844C1CE52BB5CF02004F4BCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 844C1CEC2BB5CF02004F4BCD;
+			remoteInfo = Vandi_Vendor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		844C1CED2BB5CF02004F4BCD /* Vandi_Vendor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vandi_Vendor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		844C1CF02BB5CF02004F4BCD /* Vandi_VendorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vandi_VendorApp.swift; sourceTree = "<group>"; };
+		844C1CF22BB5CF02004F4BCD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		844C1CF42BB5CF03004F4BCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		844C1CF62BB5CF03004F4BCD /* Vandi_Vendor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Vandi_Vendor.entitlements; sourceTree = "<group>"; };
+		844C1CF82BB5CF03004F4BCD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		844C1CFE2BB5CF03004F4BCD /* Vandi_VendorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Vandi_VendorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		844C1D022BB5CF03004F4BCD /* Vandi_VendorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vandi_VendorTests.swift; sourceTree = "<group>"; };
+		844C1D082BB5CF03004F4BCD /* Vandi_VendorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Vandi_VendorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		844C1D0C2BB5CF03004F4BCD /* Vandi_VendorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vandi_VendorUITests.swift; sourceTree = "<group>"; };
+		844C1D0E2BB5CF03004F4BCD /* Vandi_VendorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vandi_VendorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		844C1D1B2BB5D9B6004F4BCD /* VehicleCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleCar.swift; sourceTree = "<group>"; };
+		844C1D1D2BB5DB1F004F4BCD /* AddVehicleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddVehicleView.swift; sourceTree = "<group>"; };
+		844C1D1F2BB6F7C7004F4BCD /* CarListCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarListCard.swift; sourceTree = "<group>"; };
+		844C1D212BB6F7F1004F4BCD /* ExploreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewModel.swift; sourceTree = "<group>"; };
+		844C1D232BB6F84A004F4BCD /* DetailCarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCarView.swift; sourceTree = "<group>"; };
+		844C1D252BB7A77C004F4BCD /* VehicleCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleCardView.swift; sourceTree = "<group>"; };
+		844C1D292BB7A836004F4BCD /* VehicleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleListView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		844C1CEA2BB5CF02004F4BCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		844C1CFB2BB5CF03004F4BCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		844C1D052BB5CF03004F4BCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		844C1CE42BB5CF02004F4BCD = {
+			isa = PBXGroup;
+			children = (
+				844C1CEF2BB5CF02004F4BCD /* Vandi_Vendor */,
+				844C1D012BB5CF03004F4BCD /* Vandi_VendorTests */,
+				844C1D0B2BB5CF03004F4BCD /* Vandi_VendorUITests */,
+				844C1CEE2BB5CF02004F4BCD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		844C1CEE2BB5CF02004F4BCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				844C1CED2BB5CF02004F4BCD /* Vandi_Vendor.app */,
+				844C1CFE2BB5CF03004F4BCD /* Vandi_VendorTests.xctest */,
+				844C1D082BB5CF03004F4BCD /* Vandi_VendorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		844C1CEF2BB5CF02004F4BCD /* Vandi_Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				844C1CF02BB5CF02004F4BCD /* Vandi_VendorApp.swift */,
+				844C1CF22BB5CF02004F4BCD /* ContentView.swift */,
+				844C1D1B2BB5D9B6004F4BCD /* VehicleCar.swift */,
+				844C1D1D2BB5DB1F004F4BCD /* AddVehicleView.swift */,
+				844C1D252BB7A77C004F4BCD /* VehicleCardView.swift */,
+				844C1D292BB7A836004F4BCD /* VehicleListView.swift */,
+				844C1D1F2BB6F7C7004F4BCD /* CarListCard.swift */,
+				844C1D232BB6F84A004F4BCD /* DetailCarView.swift */,
+				844C1D212BB6F7F1004F4BCD /* ExploreViewModel.swift */,
+				844C1CF42BB5CF03004F4BCD /* Assets.xcassets */,
+				844C1CF62BB5CF03004F4BCD /* Vandi_Vendor.entitlements */,
+				844C1CF72BB5CF03004F4BCD /* Preview Content */,
+			);
+			path = Vandi_Vendor;
+			sourceTree = "<group>";
+		};
+		844C1CF72BB5CF03004F4BCD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				844C1CF82BB5CF03004F4BCD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		844C1D012BB5CF03004F4BCD /* Vandi_VendorTests */ = {
+			isa = PBXGroup;
+			children = (
+				844C1D022BB5CF03004F4BCD /* Vandi_VendorTests.swift */,
+			);
+			path = Vandi_VendorTests;
+			sourceTree = "<group>";
+		};
+		844C1D0B2BB5CF03004F4BCD /* Vandi_VendorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				844C1D0C2BB5CF03004F4BCD /* Vandi_VendorUITests.swift */,
+				844C1D0E2BB5CF03004F4BCD /* Vandi_VendorUITestsLaunchTests.swift */,
+			);
+			path = Vandi_VendorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		844C1CEC2BB5CF02004F4BCD /* Vandi_Vendor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 844C1D122BB5CF03004F4BCD /* Build configuration list for PBXNativeTarget "Vandi_Vendor" */;
+			buildPhases = (
+				844C1CE92BB5CF02004F4BCD /* Sources */,
+				844C1CEA2BB5CF02004F4BCD /* Frameworks */,
+				844C1CEB2BB5CF02004F4BCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vandi_Vendor;
+			productName = Vandi_Vendor;
+			productReference = 844C1CED2BB5CF02004F4BCD /* Vandi_Vendor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		844C1CFD2BB5CF03004F4BCD /* Vandi_VendorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 844C1D152BB5CF03004F4BCD /* Build configuration list for PBXNativeTarget "Vandi_VendorTests" */;
+			buildPhases = (
+				844C1CFA2BB5CF03004F4BCD /* Sources */,
+				844C1CFB2BB5CF03004F4BCD /* Frameworks */,
+				844C1CFC2BB5CF03004F4BCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				844C1D002BB5CF03004F4BCD /* PBXTargetDependency */,
+			);
+			name = Vandi_VendorTests;
+			productName = Vandi_VendorTests;
+			productReference = 844C1CFE2BB5CF03004F4BCD /* Vandi_VendorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		844C1D072BB5CF03004F4BCD /* Vandi_VendorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 844C1D182BB5CF03004F4BCD /* Build configuration list for PBXNativeTarget "Vandi_VendorUITests" */;
+			buildPhases = (
+				844C1D042BB5CF03004F4BCD /* Sources */,
+				844C1D052BB5CF03004F4BCD /* Frameworks */,
+				844C1D062BB5CF03004F4BCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				844C1D0A2BB5CF03004F4BCD /* PBXTargetDependency */,
+			);
+			name = Vandi_VendorUITests;
+			productName = Vandi_VendorUITests;
+			productReference = 844C1D082BB5CF03004F4BCD /* Vandi_VendorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		844C1CE52BB5CF02004F4BCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					844C1CEC2BB5CF02004F4BCD = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					844C1CFD2BB5CF03004F4BCD = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 844C1CEC2BB5CF02004F4BCD;
+					};
+					844C1D072BB5CF03004F4BCD = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 844C1CEC2BB5CF02004F4BCD;
+					};
+				};
+			};
+			buildConfigurationList = 844C1CE82BB5CF02004F4BCD /* Build configuration list for PBXProject "Vandi_Vendor" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 844C1CE42BB5CF02004F4BCD;
+			productRefGroup = 844C1CEE2BB5CF02004F4BCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				844C1CEC2BB5CF02004F4BCD /* Vandi_Vendor */,
+				844C1CFD2BB5CF03004F4BCD /* Vandi_VendorTests */,
+				844C1D072BB5CF03004F4BCD /* Vandi_VendorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		844C1CEB2BB5CF02004F4BCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844C1CF92BB5CF03004F4BCD /* Preview Assets.xcassets in Resources */,
+				844C1CF52BB5CF03004F4BCD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		844C1CFC2BB5CF03004F4BCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		844C1D062BB5CF03004F4BCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		844C1CE92BB5CF02004F4BCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844C1D222BB6F7F1004F4BCD /* ExploreViewModel.swift in Sources */,
+				844C1CF32BB5CF02004F4BCD /* ContentView.swift in Sources */,
+				844C1D242BB6F84A004F4BCD /* DetailCarView.swift in Sources */,
+				844C1D1C2BB5D9B6004F4BCD /* VehicleCar.swift in Sources */,
+				844C1CF12BB5CF02004F4BCD /* Vandi_VendorApp.swift in Sources */,
+				844C1D262BB7A77C004F4BCD /* VehicleCardView.swift in Sources */,
+				844C1D202BB6F7C7004F4BCD /* CarListCard.swift in Sources */,
+				844C1D1E2BB5DB1F004F4BCD /* AddVehicleView.swift in Sources */,
+				844C1D2A2BB7A836004F4BCD /* VehicleListView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		844C1CFA2BB5CF03004F4BCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844C1D032BB5CF03004F4BCD /* Vandi_VendorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		844C1D042BB5CF03004F4BCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844C1D0D2BB5CF03004F4BCD /* Vandi_VendorUITests.swift in Sources */,
+				844C1D0F2BB5CF03004F4BCD /* Vandi_VendorUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		844C1D002BB5CF03004F4BCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 844C1CEC2BB5CF02004F4BCD /* Vandi_Vendor */;
+			targetProxy = 844C1CFF2BB5CF03004F4BCD /* PBXContainerItemProxy */;
+		};
+		844C1D0A2BB5CF03004F4BCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 844C1CEC2BB5CF02004F4BCD /* Vandi_Vendor */;
+			targetProxy = 844C1D092BB5CF03004F4BCD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		844C1D102BB5CF03004F4BCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		844C1D112BB5CF03004F4BCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		844C1D132BB5CF03004F4BCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Vandi_Vendor/Vandi_Vendor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Vandi_Vendor/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "in.edu.srmist.Vandi-Vendor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		844C1D142BB5CF03004F4BCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Vandi_Vendor/Vandi_Vendor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Vandi_Vendor/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "in.edu.srmist.Vandi-Vendor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		844C1D162BB5CF03004F4BCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "in.edu.srmist.Vandi-VendorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vandi_Vendor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Vandi_Vendor";
+			};
+			name = Debug;
+		};
+		844C1D172BB5CF03004F4BCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "in.edu.srmist.Vandi-VendorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vandi_Vendor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Vandi_Vendor";
+			};
+			name = Release;
+		};
+		844C1D192BB5CF03004F4BCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "in.edu.srmist.Vandi-VendorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Vandi_Vendor;
+			};
+			name = Debug;
+		};
+		844C1D1A2BB5CF03004F4BCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "in.edu.srmist.Vandi-VendorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Vandi_Vendor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		844C1CE82BB5CF02004F4BCD /* Build configuration list for PBXProject "Vandi_Vendor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				844C1D102BB5CF03004F4BCD /* Debug */,
+				844C1D112BB5CF03004F4BCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		844C1D122BB5CF03004F4BCD /* Build configuration list for PBXNativeTarget "Vandi_Vendor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				844C1D132BB5CF03004F4BCD /* Debug */,
+				844C1D142BB5CF03004F4BCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		844C1D152BB5CF03004F4BCD /* Build configuration list for PBXNativeTarget "Vandi_VendorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				844C1D162BB5CF03004F4BCD /* Debug */,
+				844C1D172BB5CF03004F4BCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		844C1D182BB5CF03004F4BCD /* Build configuration list for PBXNativeTarget "Vandi_VendorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				844C1D192BB5CF03004F4BCD /* Debug */,
+				844C1D1A2BB5CF03004F4BCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 844C1CE52BB5CF02004F4BCD /* Project object */;
+}
